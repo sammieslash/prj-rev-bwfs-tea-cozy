@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+.spacer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Header Section*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    margin: auto;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.container ul {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.container li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.container li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.header img {
+    max-width: 175px;
+    padding-left: 15px;
+}
+
+/*Main Image Section*/
+.mainImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(Images/img-mission-background.jpg);
+    background-position: center;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.imgContent {
+    margin: auto;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.teaSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.teaSection h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    color: #e3e3e3;
+}
+
+.teaSection h4 {
+    width: 100%;
+    text-align: center;
+    color: #e3e3e3;
+    margin: 0 auto;
+    padding-top: 0;
+    line-height: 5pt;
+    font-size: 18pt;
+    padding-bottom: 50px;
+}
+
+/*Tea Image Section*/
+.flexImg {
+    display: flex;
+    background-color: #000;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
